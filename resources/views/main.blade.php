@@ -12,7 +12,6 @@
     <link href="{{ asset('plugins/pace/pace-theme-flash.css') }}" rel="stylesheet" type="text/css" media="screen"/>
     <link href="{{ asset('plugins/bootstrap-tag/bootstrap-tagsinput.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('plugins/dropzone/css/dropzone.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('plugins/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('plugins/bootstrap-timepicker/css/bootstrap-timepicker.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css') }}" rel="stylesheet" type="text/css"/>
@@ -92,8 +91,6 @@
 <script src="{{ asset('plugins/jquery-autonumeric/autoNumeric.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/ios-switch/ios7-switch.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/bootstrap-select2/select2.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/bootstrap-wysihtml5/bootstrap-wysihtml5.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/bootstrap-tag/bootstrap-tagsinput.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/dropzone/dropzone.min.js') }}" type="text/javascript"></script>
 <!-- END PAGE LEVEL PLUGINS -->

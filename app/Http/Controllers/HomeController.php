@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('main');
+        return view('home');
     }
 
     /**
@@ -91,5 +91,13 @@ class HomeController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+
+    public function logout()
+    {
+        \Auth::logout();
+
+        return redirect('/');
     }
 }

@@ -28,17 +28,17 @@
                 </div>
             </div>
             <div class="side-widget fadeIn">
-                <div class="side-widget-title">favourites</div>
+                <div class="side-widget-title">Suporte</div>
                 <div id="favourites-list">
                     <div class="side-widget-content">
                         <div class="user-details-wrapper active" data-chat-status="online"
-                             data-chat-user-pic="assets/projects/img/profiles/d.jpg"
-                             data-chat-user-pic-retina="assets/projects/img/profiles/d2x.jpg"
+                             data-chat-user-pic="{{ asset('img/profiles/d.jpg') }}"
+                             data-chat-user-pic-retina="{{ asset('img/profiles/d2x.jpg') }}"
                              data-user-name="Jane Smith">
                             <div class="user-profile">
-                                <img src="assets/projects/img/profiles/d.jpg" alt=""
-                                     data-src="assets/projects/img/profiles/d.jpg"
-                                     data-src-retina="assets/projects/img/profiles/d2x.jpg" width="35" height="35">
+                                <img src="{{ asset('img/profiles/d.jpg') }}" alt=""
+                                     data-src="{{ asset('img/profiles/d.jpg') }}"
+                                     data-src-retina="{{ asset('img/profiles/d2x.jpg') }}" width="35" height="35">
                             </div>
                             <div class="user-details">
                                 <div class="user-name">
@@ -57,13 +57,13 @@
                             <div class="clearfix"></div>
                         </div>
                         <div class="user-details-wrapper" data-chat-status="busy"
-                             data-chat-user-pic="assets/projects/img/profiles/d.jpg"
-                             data-chat-user-pic-retina="assets/projects/img/profiles/d2x.jpg"
+                             data-chat-user-pic="{{ asset('img/profiles/d.jpg') }}"
+                             data-chat-user-pic-retina="{{ asset('img/profiles/d2x.jpg') }}"
                              data-user-name="David Nester">
                             <div class="user-profile">
-                                <img src="assets/projects/img/profiles/c.jpg" alt=""
-                                     data-src="assets/projects/img/profiles/c.jpg"
-                                     data-src-retina="assets/projects/img/profiles/c2x.jpg" width="35" height="35">
+                                <img src="{{ asset('img/profiles/c.jpg') }}" alt=""
+                                     data-src="{{ asset('img/profiles/c.jpg') }}"
+                                     data-src-retina="{{ asset('img/profiles/c2x.jpg') }}" width="35" height="35">
                             </div>
                             <div class="user-details">
                                 <div class="user-name">
@@ -81,107 +81,6 @@
                             </div>
                             <div class="clearfix"></div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="side-widget">
-                <div class="side-widget-title">more friends</div>
-                <div class="side-widget-content" id="friends-list">
-                    <div class="user-details-wrapper" data-chat-status="online"
-                         data-chat-user-pic="assets/projects/img/profiles/d.jpg"
-                         data-chat-user-pic-retina="assets/projects/img/profiles/d2x.jpg" data-user-name="Jane Smith">
-                        <div class="user-profile">
-                            <img src="assets/projects/img/profiles/d.jpg" alt=""
-                                 data-src="assets/projects/img/profiles/d.jpg"
-                                 data-src-retina="assets/projects/img/profiles/d2x.jpg" width="35" height="35">
-                        </div>
-                        <div class="user-details">
-                            <div class="user-name">
-                                Jane Smith
-                            </div>
-                            <div class="user-more">
-                                Hello you there?
-                            </div>
-                        </div>
-                        <div class="user-details-status-wrapper">
-
-                        </div>
-                        <div class="user-details-count-wrapper">
-                            <div class="status-icon green"></div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="user-details-wrapper" data-chat-status="busy"
-                         data-chat-user-pic="assets/projects/img/profiles/d.jpg"
-                         data-chat-user-pic-retina="assets/projects/img/profiles/d2x.jpg" data-user-name="David Nester">
-                        <div class="user-profile">
-                            <img src="assets/projects/img/profiles/h.jpg" alt=""
-                                 data-src="assets/projects/img/profiles/h.jpg"
-                                 data-src-retina="assets/projects/img/profiles/h2x.jpg" width="35" height="35">
-                        </div>
-                        <div class="user-details">
-                            <div class="user-name">
-                                David Nester
-                            </div>
-                            <div class="user-more">
-                                Busy, Do not disturb
-                            </div>
-                        </div>
-                        <div class="user-details-status-wrapper">
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="user-details-count-wrapper">
-                            <div class="status-icon red"></div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="user-details-wrapper" data-chat-status="online"
-                         data-chat-user-pic="assets/projects/img/profiles/d.jpg"
-                         data-chat-user-pic-retina="assets/projects/img/profiles/d2x.jpg" data-user-name="Jane Smith">
-                        <div class="user-profile">
-                            <img src="assets/projects/img/profiles/c.jpg" alt=""
-                                 data-src="assets/projects/img/profiles/c.jpg"
-                                 data-src-retina="assets/projects/img/profiles/c2x.jpg" width="35" height="35">
-                        </div>
-                        <div class="user-details">
-                            <div class="user-name">
-                                Jane Smith
-                            </div>
-                            <div class="user-more">
-                                Hello you there?
-                            </div>
-                        </div>
-                        <div class="user-details-status-wrapper">
-
-                        </div>
-                        <div class="user-details-count-wrapper">
-                            <div class="status-icon green"></div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="user-details-wrapper" data-chat-status="busy"
-                         data-chat-user-pic="assets/projects/img/profiles/d.jpg"
-                         data-chat-user-pic-retina="assets/projects/img/profiles/d2x.jpg" data-user-name="David Nester">
-                        <div class="user-profile">
-                            <img src="assets/projects/img/profiles/h.jpg" alt=""
-                                 data-src="assets/projects/img/profiles/h.jpg"
-                                 data-src-retina="assets/projects/img/profiles/h2x.jpg" width="35" height="35">
-                        </div>
-                        <div class="user-details">
-                            <div class="user-name">
-                                David Nester
-                            </div>
-                            <div class="user-more">
-                                Busy, Do not disturb
-                            </div>
-                        </div>
-                        <div class="user-details-status-wrapper">
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="user-details-count-wrapper">
-                            <div class="status-icon red"></div>
-                        </div>
-                        <div class="clearfix"></div>
                     </div>
                 </div>
             </div>
@@ -208,9 +107,9 @@
                 <div class="sent_time">Yesterday 11:25pm</div>
                 <div class="user-details-wrapper ">
                     <div class="user-profile">
-                        <img src="assets/projects/img/profiles/d.jpg" alt=""
-                             data-src="assets/projects/img/profiles/d.jpg"
-                             data-src-retina="assets/projects/img/profiles/d2x.jpg" width="35" height="35">
+                        <img src="{{ asset('img/profiles/d.jpg') }}" alt=""
+                             data-src="{{ asset('img/profiles/d.jpg') }}"
+                             data-src-retina="{{ asset('img/profiles/d2x.jpg') }}" width="35" height="35">
                     </div>
                     <div class="user-details">
                         <div class="bubble">
@@ -222,9 +121,9 @@
                 </div>
                 <div class="user-details-wrapper ">
                     <div class="user-profile">
-                        <img src="assets/projects/img/profiles/d.jpg" alt=""
-                             data-src="assets/projects/img/profiles/d.jpg"
-                             data-src-retina="assets/projects/img/profiles/d2x.jpg" width="35" height="35">
+                        <img src="{{ asset('img/profiles/d.jpg') }}" alt=""
+                             data-src="{{ asset('img/profiles/d.jpg') }}"
+                             data-src-retina="{{ asset('img/profiles/d2x.jpg') }}" width="35" height="35">
                     </div>
                     <div class="user-details">
                         <div class="bubble">
@@ -236,9 +135,9 @@
                 </div>
                 <div class="user-details-wrapper ">
                     <div class="user-profile">
-                        <img src="assets/projects/img/profiles/d.jpg" alt=""
-                             data-src="assets/projects/img/profiles/d.jpg"
-                             data-src-retina="assets/projects/img/profiles/d2x.jpg" width="35" height="35">
+                        <img src="{{ asset('img/profiles/d.jpg') }}" alt=""
+                             data-src="{{ asset('img/profiles/d.jpg') }}"
+                             data-src-retina="{{ asset('img/profiles/d2x.jpg') }}" width="35" height="35">
                     </div>
                     <div class="user-details">
                         <div class="bubble">
@@ -260,6 +159,7 @@
                 </div>
             </div>
         </div>
+        <br><br>
         <div class="chat-input-wrapper" style="display:none">
             <textarea id="chat-message-input" rows="1" placeholder="Type your message"></textarea>
         </div>
