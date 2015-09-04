@@ -10,7 +10,7 @@
                 </li>
             </ul>
             <!-- BEGIN LOGO -->
-            <a href="index.html">
+            <a href="{{url('/')}}">
                 <img src="{{ asset('img/logo.png') }}" class="logo" alt=""
                      data-src="{{ asset('img/logo.png') }}"
                      data-src-retina="{{ asset('img/logo.png') }}" width="106" height="21"/>
@@ -18,7 +18,7 @@
             <!-- END LOGO -->
             <ul class="nav pull-right notifcation-center">
                 <li class="dropdown" id="header_task_bar">
-                    <a href="index.html" class="dropdown-toggle active" data-toggle="">
+                    <a href="{{url('/')}}" class="dropdown-toggle active" data-toggle="">
                         <div class="iconset top-home"></div>
                     </a>
                 </li>
@@ -41,19 +41,6 @@
                     </li>
                 </ul>
                 <ul class="nav quick-section">
-                    <li class="quicklinks">
-                        <a href="#" class="">
-                            <div class="iconset top-reload"></div>
-                        </a>
-                    </li>
-                    <li class="quicklinks">
-                        <span class="h-seperate"></span>
-                    </li>
-                    <li class="quicklinks">
-                        <a href="#" class="">
-                            <div class="iconset top-tiles"></div>
-                        </a>
-                    </li>
                     <li class="m-r-10 input-prepend inside search-form no-boarder">
                         <span class="add-on">
                             <span class="iconset top-search"></span>
@@ -68,9 +55,18 @@
             <div class="pull-right">
                 <div class="chat-toggler">
                     <div class="profile-pic" style="float: right">
-                        <img src="{{ asset('img/profiles/avatar_small.jpg') }}" alt=""
-                             data-src="{{  asset('img/profiles/avatar_small.jpg') }}"
-                             data-src-retina="{{  asset('img/profiles/avatar_small2x.jpg') }}" width="35" height="35"/>
+                        @if(Auth::check())
+                            @if(Auth::user()->image != "")
+                                <img src="{{ asset(Auth::user()->image) }}" alt=""
+                                     data-src="{{  asset(Auth::user()->image) }}"
+                                     data-src-retina="{{  asset(Auth::user()->image) }}" width="35" height="35"/>
+                            @else
+                                <img src="{{ asset('img/profiles/avatar_small.jpg') }}" alt=""
+                                     data-src="{{  asset('img/profiles/avatar_small.jpg') }}"
+                                     data-src-retina="{{  asset('img/profiles/avatar_small2x.jpg') }}" width="35" height="35"/>
+                            @endif
+                        @endif
+
                     </div>
                 </div>
                 <ul class="nav quick-section ">

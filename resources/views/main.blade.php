@@ -12,11 +12,6 @@
     <link href="{{ asset('plugins/pace/pace-theme-flash.css') }}" rel="stylesheet" type="text/css" media="screen"/>
     <link href="{{ asset('plugins/bootstrap-tag/bootstrap-tagsinput.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('plugins/dropzone/css/dropzone.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('plugins/bootstrap-datepicker/css/datepicker.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('plugins/bootstrap-timepicker/css/bootstrap-timepicker.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ asset('plugins/ios-switch/ios7-switch.css') }}" rel="stylesheet" type="text/css" media="screen">
-    <link href="{{ asset('plugins/bootstrap-select2/select2.css') }}" rel="stylesheet" type="text/css" media="screen"/>
     <link href="{{ asset('plugins/jquery-slider/css/jquery.sidr.light.css') }}" rel="stylesheet" type="text/css"
           media="screen"/>
     <!-- END PLUGIN CSS -->
@@ -84,17 +79,13 @@
 <!-- BEGIN PAGE LEVEL PLUGINS -->
 <script src="{{ asset('plugins/pace/pace.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/jquery-block-ui/jqueryblockui.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/bootstrap-datepicker/js/bootstrap-datepicker.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/bootstrap-timepicker/js/bootstrap-timepicker.min.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/jquery-inputmask/jquery.inputmask.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/jquery-autonumeric/autoNumeric.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/ios-switch/ios7-switch.js') }}" type="text/javascript"></script>
-<script src="{{ asset('plugins/bootstrap-select2/select2.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/bootstrap-tag/bootstrap-tagsinput.min.js') }}" type="text/javascript"></script>
 <script src="{{ asset('plugins/dropzone/dropzone.min.js') }}" type="text/javascript"></script>
+<script src="{{ asset('plugins/bootstrap-file-input/bootstrap.file-input.js') }}" type="text/javascript"></script>
+
 <!-- END PAGE LEVEL PLUGINS -->
-<script src="{{ asset('js/form_elements.js') }}" type="text/javascript"></script>
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src="{{ asset('js/core.js') }}" type="text/javascript"></script>
 <script src="{{ asset('js/chat.js') }}" type="text/javascript"></script>
